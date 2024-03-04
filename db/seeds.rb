@@ -7,3 +7,9 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+Product.delete_all
+
+Product.create(
+  title: "Text sample",
+  description: "Testing product to valid model",
+  stock_quantity: 20)
