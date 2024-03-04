@@ -1,0 +1,23 @@
+<div class="message-header">
+    <p>
+      <%= @product.title %>.
+    </p>
+  </div>
+
+<div class="columns is-multiline">
+  <div class="column is-one-quarter" >
+    <div class="card">
+      <header class="card-header">
+        <p class="card-header-title">
+          <%= @product.title%>
+        </p>
+      </header>
+      <div class="card-content">
+        <div class="content">
+          <p>Price: <%= @product.price %></p>
+          <p>Quantity: <%= @product.stock_quantity %></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
